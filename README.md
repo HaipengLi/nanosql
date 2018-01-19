@@ -5,9 +5,46 @@
 ### Dependencies
 
 - [clint](https://github.com/kennethreitz/clint) 0.5.1
-- python 3.5 or 3.6
 - flask
 
+
+The dependencies can be installed by simply use `pipenv`.
+
+1. install pipenv.
+
+```
+pip install pipenv
+
+```
+
+1. install dependencies
+
+```
+pipenv install
+
+```
+
+1. enter virtual envirment
+
+```
+pipenv shell
+```
+
+### Run app
+
+**Make sure currently in the pipenv or all dependencies are installed.**
+
+#### CLI
+
+```
+python shell.py
+```
+
+#### Web
+
+```
+python web.py
+```
 
 ### Sample SQLs
 
